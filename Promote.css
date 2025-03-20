@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.Logo {
+    width:25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-left: 4%;
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+ul{
+    
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding-right: 15%;
+}
+
+.Option li a {
+    
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    height: 20px;
+}
+
+header {
+    height:600px;
+    background: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/marvels-spider-man-2-features.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5) no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.website{
+  
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 8%;
+
+}
+
+
+.checkmate {
+    height: 550px;
+    background-image:linear-gradient(180deg, rgb(3, 3, 3) 0%, rgba(0,212,255,0) 50%), url(https://static1.srcdn.com/wordpress/wp-content/uploads/2021/11/Marvels-Spider-Man-2-features-both-Peter-and-Miles.png); z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.paragraph{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75rem;
+    padding-top: 10rem;
+    font-size:2rem;
+}
+
+.para {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75rem;
+    padding-top: 2rem;
+    padding-right: 75px;
+    font-size:2rem;
+}
+
+.para2{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75rem;
+    padding-top: 2rem;
+    padding-right: 135px;
+    font-size:2rem;
+}
+
+.para3 {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 84.5rem;
+    padding-top: 2rem;
+}
+
+.title{
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:black;
+    height: 20vh;
+}
+
+
+.text {
+    color:white;
+    width:25%;
+    height: fit-content;
+    margin-left: 35rem;
+    font-size:1.2rem;
+}
+
+.BOX {
+    display:flex;
+    background-color:black;
+    height: 50vh;
+}
+
+.text2 {
+    margin-top: 2rem;
+}
+
+.text3{
+    margin-top: 2rem;
+}
+
+.text4{
+    margin-top: 2rem;
+}
+
+.topic {
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: black;
+    height: 20vh;
+}
+
+.text5{
+    height:fit-content;
+    width:25%;
+    margin-left: -5rem;
+    margin-top:5rem;
+    font-size:1.3rem;
+    border-style:solid;
+    border-color: white;
+    background-color: white;
+    height: 45vh;
+}
+
+.BOX2{
+    display:flex;
+    background-color:black;
+    height:60vh;
+    
+}
+
+.text6 {
+    margin-top:5rem;
+}
+
+
+.Topic2 {
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:black;
+    height: 20vh;
+}
+
+.text7 {
+    color:white;
+    height:fit-content;
+    width:90%;
+    margin-left:-60rem;
+    margin-top:7rem;
+    font-size:1.3rem;
+}
+
+.BOX3{
+    display:flex;
+    background-color: black;
+    height:60vh;
+}
+
+.text8{
+    margin-top:4rem;
+}
+
+.TOPIC3{
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: black;
+    height: 20vh;
+}
+
+.text9{
+    color:white;
+    width:60%;
+    margin-top:5rem;
+    margin-left: -30rem;
+    font-size:1.5rem;
+
+}
+
+.BOX4{
+    display:flex;
+    background-color:black;
+    height:60vh;
+}
+
+.text10{
+    margin-top:5rem;
+}
+
+
+.TOPIC4{
+    padding-top: 4rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    height:20vh;
+    color:white;
+}
+
+
+.slide{
+    background-color:black;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 0px opx 20px 5px red;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+
+.slide figure img{
+    width: 25%;
+    height:600px;
+    float:left;
+}
+
+.slide figure {
+    position:relative;
+    width:400%;
+    margin:0px;
+    left:0px;
+    animation: SPIDERMAN 10s infinite linear;
+}
+
+@keyframes SPIDERMAN{
+    0%{left: 0%;}
+    15%{left:0%;}
+    20%{left: -100%;}
+    35%{left: -100%;}
+    40%{left:-200%;}
+    60%{left:-200%;}
+    65%{left:-300%;}
+    80%{left:-300%;}
+    85%{left:-400%;}
+    100%{left:-400%;}
+}
+
+
+
+
+
+
+.TOPIC6{
+    color:white;
+    margin-top:8rem;
+    margin-right:15rem;
+
+}
+
+.BOX5{
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(146, 22, 22);
+    height:65vh;
+}
+
+.TOPIC7 h1{
+    padding-top:2rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.TOPIC7 p{
+    padding-top:1rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1.5rem;
+}
+
+.TOPIC7{
+    color:white;
+    background-color:black;
+    height:15vh;
+}
+
+.phrase2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1.5rem;
+    background-color:black;
+    color:white;
+}
+
+
+
+.text11 h1{
+    color:white;
+    padding-top: 7rem;
+    margin-left:19rem;
+}
+
+.pictures-container img {
+      width:50%;
+      margin-top: 2.5rem;
+      margin-left:13rem;
+}
+
+
+.phrase3{
+    margin-top:-5rem;
+}
+
+.phrase4{
+    margin-top:-5rem;
+}
+.BOX6{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background:linear-gradient(180deg, rgb(3, 3, 3) 0%, rgba(0,212,255,0) 90%);
+    background-color:red;
+    height:55vh;
+}
+
+
+.text12 h1{
+      color:white;
+       margin-top:8rem;
+       margin-left:5.5rem;
+}
+.pictures2-container img{
+    width:78%;
+    margin-top:4rem;
+    margin-left:-4rem;
+
+}
+
+footer h1{
+    padding-top:2rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+footer p{
+    margin-top:0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.QUOTE2 {
+    color:white;
+    font-size:1.3rem;
+    margin-top:0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.MARVEL{
+    border-style:solid;
+    border-color:red;
+    background-color:red;
+    width:8%;
+    color:white;
+    margin-top:0.5rem;
+    margin-left:45%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.LAST {
+    background-color:black;
+    width:200%;
+}
+
+footer{
+    color:white;
+}

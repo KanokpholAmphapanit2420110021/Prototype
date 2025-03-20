@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+.Logo {
+    width:25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-left: 4%;
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+ul{
+    
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    padding-right: 15%;
+}
+
+.Option li a {
+    
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    height: 20px;
+}
+
+header {
+    height:600px;
+    background: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/marvels-spider-man-2-features.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5) no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.website{
+  
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+
+
+.About{
+    background-color:black;
+    height: 30%;
+
+}
+
+.About h1{
+
+    width: 5.7%;
+    color: rgb(14, 241, 241);
+    font-size:2rem;
+    margin-left: 3rem;
+}
+
+.About p {
+    width:95%;
+    color:white;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-top:2rem;
+    margin-left:2.5rem;
+}
+
+
+
+
+
+.info {
+    padding-top:5%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgb(3, 3, 3) 0%, rgba(0,212,255,0) 40%),
+    url(https://static2.srcdn.com/wordpress/wp-content/uploads/2021/09/Marvels-Spider-Man-2-PS5-Game-Peter-Miles-Venom-Playable-Character-Differences.jpg);
+    display: flex;
+}
+
+
+
+
+.Quote{
+    width:20%;
+    margin-left:20%;
+    color:white;
+    padding-top: 1%;
+    font-size:1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.information{
+    width: 20%;
+    margin-left:25%;
+    color:white;
+    padding-top: 1%;
+    font-size:1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+
+
+.Main {
+    padding-top: 5%;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     display:flex;
+     background-color: black;
+     color:white;
+}
+
+
+.slideshow-container{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: black;
+    position: relative;
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.mySlides img{
+    width:100%;
+    height: 400px;
+    object-fit: scale-down;
+}
+
+
+.mySlides p {
+    color:white;
+    font-size:1.5rem;
+
+}
+
+
+.title {
+    color:white;
+    margin-top:5%;
+    margin-bottom:5%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.title2 {
+    color:white;
+    margin-top:5%;
+    margin-bottom:5%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.title3 {
+    margin-left:2rem;
+    color:white;
+    margin-top:5%;
+    margin-bottom:5%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.mySlides p{
+    width:95%;
+}
+
+.phrase{
+
+    width:90%;
+    margin-left:1.5rem;
+}
+
+
+.title4 {
+    color:white;
+    margin-top:5%;
+    margin-bottom:5%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+footer h1{
+    padding-top:1rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1.5rem;
+}
+
+footer p{
+    margin-top: 0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1rem;
+}
+
+.QUOTE2{
+    margin-top:0.5rem;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1.5rem;
+}
+
+.MARVEL{
+    border-style:solid;
+    border-color:red;
+    background-color:red;
+    margin-top:0.3rem;
+    color:white;
+    display:flex;
+    align-items:center;
+    width:11%;
+    justify-content: center;
+    margin-left:40.5rem;
+    font-size:1rem;
+}
+
+.LAST{
+    border:18px solid red;
+    background-color:black;
+    height:20vh;
+}
+
+footer {
+    color:white;
+}
+
